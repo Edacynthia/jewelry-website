@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    /* padding: 0 1rem; */
+}
+
+.nav div{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    background: #F4E3CD;
+}
+.pic1 img{
+    width: 25px;
+}
+
+.nav h1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border-color: none;
+    transition: color .3s;
+}
+.nav ul li a:hover{
+    color: brown;
+   /* text-decoration: underline; */
+}
+
+.main{
+    background-color: #F4E3CD;
+}
+.firstbody{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-family: "Dancing script";
+    padding-left: 2rem;
+}
+.first-text {
+    padding-top: 2rem;
+    font-size: 25px;
+    width: 95%;
+}
+.firstbody-pic {
+    display: flex;
+    margin-top: -150px;
+    padding: 20px;
+}
+.first-heading{
+    padding-left: 2rem;
+    padding-top: 8rem;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    width: 40%;
+}
+.firstbody-button{
+    display: block;
+    margin: 1rem 2rem;
+    padding: 10px;
+    background-color: #704737;
+    color: white;
+    border: none;
+    transition: color .3s;
+}
+.firstbody-button:hover{
+    background-color: tan;
+}
+.bodyinn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    padding: 40px 60px;
+    gap: 2%;
+    font-size: 20px;
+    background-color: white;
+}
+.note{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
+.box{
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bodypic {
+    background: #1D1917;
+    padding: 2rem;
+}
+
+.pic-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.pitch img{
+    width: 100%;
+    background-color: #F8F9FB;
+    max-height: 300px;
+}
+.bodypic2{
+    display: flex;
+    background-color: #F8F9FB;
+}
+.pitch2 img{
+    width: 90%;
+    padding: 10px;
+    background-color: #F8F9FB;
+    height: 300px;
+}
+.innernav{
+    text-align: center;
+    background-color: #F4E3CD;
+    height: 50px;
+    padding: 15px 0;
+    font-family: "Dancing script";
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.care{
+    display: flex;
+    background-color: #FFF7F5;
+    padding: 20px 0;
+}
+.jewelcare{
+    padding-top: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 22px;
+    font-weight: 700;
+}
+.carepic img{
+    
+    width: 100%;
+    padding-top: 4rem;
+}
+.bodybox{
+    display: flex;
+    
+    padding: 60px;
+    gap: 15%;
+    background-color: whitesmoke;
+}
+.bol1, .bol2, .bol3{
+    background-color: #9D7F61;
+    padding: 100px 60px 100px 60px;
+    border-style: outset;
+    border: 10px solid tan;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    font-size: 12px;
+}
+.bol1:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: transform 0.3s;
+}
+.inbox1{
+    border: 2px solid;
+}
+.inbox2{
+    border: 2px solid brown;
+}
+
+.nav--nav {
+    display: flex;
+    justify-content: space-between;
+    background: #F4E3CD;
+    font-size: 1rem;
+    padding-left: 2rem;
+    font-family: "Dancing Script"
+}
+
+.nav ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 2rem;
+    background-color: #F4E3CD;   
+}
+.review-head{
+    text-align: center;
+    font-size: 19px;
+}
+.review-body{
+    padding: 10px;
+}
+.boxes{
+    display: flex;
+    gap: 2%;
+    padding: 2rem;
+}
+.bob ,.box2 ,.box3{
+    background-color: #9D7F61;
+    color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 2rem 3rem 2rem 2rem;
+    line-height: 1.3rem;
+    font-size: 25px;
+}
+.inbox{
+    display: flex;
+    gap: 2%;
+    font-family: "Dancing Script";
+}
+.fit img{
+    border-radius: 60%;
+    width: 60%;
+}
+.top h5{
+    color: papayawhip;
+    font-size: 15px;
+}
+.boxes p{
+    padding: 1rem 0rem;
+    width: 300px;
+    font-size: 1.1rem;
+}
+.box2{
+    margin-top: 1.2rem;
+}
+.box3{
+    margin-top: 1.2rem;
+}
+.bob{
+    margin-top: 1.2rem;
+}
+.let{
+    
+    text-align: center;
+    padding: 15px;
+}
+.let h3{
+    font-size: 15px;
+}
+.let-button{
+    width: 30%;
+    padding: 7px;
+}
+.foot-body{
+    background-color: #1D1917;
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+.foot-body ul li{
+    list-style-type: none;
+    font-size: 15px;
+    transition: color .3s;
+}
+
+.foot-body h1{
+    font-size: 20px;
+}
+
+.footer-sec{
+    display: flex;
+    padding: 5px;
+    line-height: 1.8;
+}
+
+.foot-body ul li:hover{
+    text-decoration: underline;
+    color: #9D7F61;
+}
+.icons a i {
+    font-size: 25px;
+    color: #e4e4e4;
+    margin-right: 20px;
+    transition: .5s ease;
+}
+    
+.icons a:hover i {
+    transform: scale(1.2);
+}
+
+
